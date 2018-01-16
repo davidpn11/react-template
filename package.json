@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "global": "^4.3.2",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-scripts": "1.1.0"
@@ -14,8 +15,10 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
+    "babel-eslint": "^8.2.1",
     "eslint": "^4.15.0",
     "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-flowtype": "^2.41.0",
     "eslint-plugin-prettier": "^2.5.0",
     "prettier": "^1.10.2"
   }
