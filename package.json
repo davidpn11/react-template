@@ -3,16 +3,22 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "flow-bin": "^0.63.1",
     "global": "^4.3.2",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-scripts": "1.1.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "NODE_PATH=src react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "flow init": "flow init",
+    "flow start": "flow start",
+    "flow stop": "flow stop",
+    "flow status": "flow status",
+    "flow check": "flow check --all"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",
