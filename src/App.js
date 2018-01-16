@@ -4,8 +4,7 @@ import './App.css'
 
 class App extends Component {
   render() {
-
-    let x = 21
+    const x = 21
     return (
       <div className="App">
         <header className="App-header">

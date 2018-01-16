@@ -1,7 +1,6 @@
 {
   "parser": "babel-eslint",
   "extends": [
-    "standard",
     "plugin:flowtype/recommended",
     "plugin:react/recommended",
     "prettier",
@@ -14,7 +13,7 @@
     "es6": true,
     "node": true
   },
-  "plugins": ["flowtype", "react", "prettier", "standard"],
+  "plugins": ["flowtype", "react", "prettier"],
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true

@@ -4,6 +4,6 @@
   "eslintIntegration": true,
   "bracketSpacing": true,
   "arrowParens": "always",
-  "spaceBeforeFunctionParen": true,
+  "spaceBeforeFunctionParent": true,
   "trailingComma": "es5"
 }
