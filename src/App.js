@@ -1,10 +1,9 @@
 import React, { Component } from 'react'
 import logo from './logo.svg'
-import 'App.scss'
+import 'App.css'
 
 class App extends Component {
   render() {
-    const x = 21
     return (
       <div className="App">
         <header className="App-header">
